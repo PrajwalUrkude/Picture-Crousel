@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3ff58;
+}
+
+.imgcontainer{
+    width: 70%;
+    height: 70vh;
+    background: url("./Img/1.jpg") center/cover fixed no-repeat;
+    border: 0.5rem solid #FFF700;
+    border-radius: 0.5rem;
+    position: relative;
+    margin: 6rem auto;
+    box-shadow: 12px 12px 25px rgba(0,0,0,0.6);
+}
+
+.btnleft{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background-color: #3B117E;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    border:0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.btnright{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background-color: #3B117E;
+    color: #fff;
+    transform: translate(50%, -50%);
+    border:0.2rem solid #3CBFF8;
+    font-size: 1.5rem;
+    padding: 15px;
+    cursor: pointer;
+}
